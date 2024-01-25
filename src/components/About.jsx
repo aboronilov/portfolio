@@ -46,6 +46,8 @@ const About = () => {
           <li className=" text-secondary text-[14px]">French - C1</li>
           <li className=" text-secondary text-[14px]">Professional jazz guitarist</li>
           <li className=" text-secondary text-[14px]">Laureate of international vocal contests</li>
+          <li className=" text-secondary text-[14px]">6 years in education - Computer Science professor</li>
+          <li className=" text-secondary text-[14px]">8 years in martial arts - Kickboxing, MMA</li>
         </div>
 
         <img
@@ -54,18 +56,16 @@ const About = () => {
             w-[200px] md:w-[300px] 
             h-[234px] md:h-[351px]
             mt-20 md:mt-0   
-            rounded-xl
-            transition
-            hover:opacity-70       
+            rounded-xl     
           "
         />
       </motion.div>
 
-      <div className="mt-20 flex flex-wrap gap-10 justify-center">
+      {/* <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map(({ id, title, icon }) => (
           <ServiceCard key={id} title={title} icon={icon} index={id} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

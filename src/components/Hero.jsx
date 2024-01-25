@@ -41,7 +41,7 @@ const Hero = () => {
           `}
           >
             I am a Fullstack developer{" "}
-            <br className="sm:block hidden" /> with passion to DevOps
+            <br className="sm:block hidden" /> with passion to DevOps and AI
           </p>
         </div>
       </div>
