@@ -40,8 +40,8 @@ const Hero = () => {
             text-white
           `}
           >
-            I develop backend, user interfaces{" "}
-            <br className="sm:block hidden" /> and neural networks
+            I am a Fullstack developer{" "}
+            <br className="sm:block hidden" /> with passion to DevOps
           </p>
         </div>
       </div>
