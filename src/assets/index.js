@@ -29,6 +29,7 @@ import python from "./tech/python.png";
 // import starbucks from "./company/starbucks.png";
 // import tesla from "./company/tesla.png";
 import infoculture from "./company/infoculture.png";
+import expres from "./company/expres.png"
 
 import netflix from "./projects/netflix.webp"
 import reddit from "./projects/reddit.png"
@@ -72,6 +73,7 @@ export {
   ecommerce,
 
   infoculture,
+  expres,
   next,
   firebase,
   python,
