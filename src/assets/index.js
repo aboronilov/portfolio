@@ -14,7 +14,7 @@ import css from "./tech/css.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import nodejs from "./tech/node.svg";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -23,6 +23,15 @@ import typescript from "./tech/typescript.png";
 import next from "./tech/next.png";
 import firebase from "./tech/firebase.png";
 import python from "./tech/python.png";
+import golang from "./tech/go.png"
+import django from "./tech/django.png"
+import flask from "./tech/flask.jpeg"
+import fastapi from "./tech/fastapi.png"
+import expressjs from "./tech/express-js.png"
+import nestjs from "./tech/nestjs.png"
+import chi from "./tech/chi.svg"
+import docker from "./tech/docker.png"
+import kubernetes from "./tech/k8s.png"
 
 // import meta from "./company/meta.png";
 // import shopify from "./company/shopify.png";
@@ -77,4 +86,13 @@ export {
   next,
   firebase,
   python,
+  golang,
+  django,
+  flask,
+  fastapi,
+  expressjs,
+  nestjs,
+  chi,
+  docker,
+  kubernetes
 };

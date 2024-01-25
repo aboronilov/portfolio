@@ -16,7 +16,7 @@ import {
   next,
   firebase,
   python,
-
+  golang,
   netflix,
   reddit,
   estate,
@@ -24,6 +24,14 @@ import {
   bank,
   restoraunt,
   ecommerce,
+  django,
+  flask,
+  fastapi,
+  expressjs,
+  nestjs,
+  chi,
+  docker,
+  kubernetes
 } from "../assets";
 
 export const navLinks = [
@@ -33,7 +41,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Expirience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "projects",
@@ -69,12 +81,40 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Firebase",
-    icon: firebase,
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
   },
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "GO",
+    icon: golang,
+  },
+  {
+    name: "CHI",
+    icon: chi,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "HTML 5",
@@ -84,10 +124,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -111,6 +151,14 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "K8S",
+    icon: kubernetes,
   },
 ];
 
