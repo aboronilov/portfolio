@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../style";
-import { navLinks } from "../constants";
+import { navLinks, contacts } from "../constants";
 import { close, logo, menu } from "../assets";
 
 const Navbar = () => {
@@ -45,6 +45,22 @@ const Navbar = () => {
             Anatoly<span className="sm:block hidden ml-1"> | Boronilov</span>
           </p>
         </Link>
+        <div className="flex items-center ml-12 md:ml-0 gap-x-4 md:gap-x-8 justify-between">
+          {contacts.map((item) => (
+            <div
+              key={item.name}
+              className="cursor-pointer transition duration-300 hover:opacity-70 "
+            >
+              <a href={`${item.href}`} target="_blank">
+                <img 
+                  alt={item.name}
+                  src={item.icon}
+                  className="w-6 h-6 group-even:w-14 group-even:h-14"
+                />
+              </a>
+            </div>
+          ))}
+        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((item) => (
             <li
@@ -56,6 +72,7 @@ const Navbar = () => {
                 font-medium
                 cursor-pointer
                 transition
+                duration-300
               `}
               onClick={() => setActive(item.title)}
             >

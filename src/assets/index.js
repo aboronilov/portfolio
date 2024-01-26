@@ -50,7 +50,9 @@ import ecommerce from "./projects/ecommerce.png"
 import nike from "./projects/nike.png"
 import travel from "./projects/travel.png"
 
-
+import github from "./contacts/github.png"
+import kaggle from "./contacts/kaggle.png"
+import telega from "./contacts/telega.webp" 
 
 export {
   logo,
@@ -98,5 +100,9 @@ export {
   nestjs,
   chi,
   docker,
-  kubernetes
+  kubernetes,
+
+  github,
+  telega,
+  kaggle,
 };

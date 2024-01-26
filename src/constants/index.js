@@ -34,6 +34,9 @@ import {
   kubernetes,
   nike,
   travel,
+  github,
+  kaggle,
+  telega
 } from "../assets";
 
 export const navLinks = [
@@ -58,6 +61,24 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+const contacts = [
+  {
+    "name": "telegram",
+    "icon": telega,
+    "href": "https://t.me/aboronilov"
+  },
+  {
+    "name": "github",
+    "icon": github,
+    "href": "https://github.com/aboronilov"
+  },
+  {
+    "name": "kaggle",
+    "icon": kaggle,
+    "href": "https://www.kaggle.com/anatolyboronilov"
+  }
+]
 
 const services = [
   {
@@ -397,4 +418,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, contacts };
