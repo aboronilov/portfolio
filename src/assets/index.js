@@ -47,6 +47,8 @@ import photographer from "./projects/photogapher.jpg"
 import bank from "./projects/bank.png"
 import restoraunt from "./projects/restoraunt.png"
 import ecommerce from "./projects/ecommerce.png"
+import nike from "./projects/nike.png"
+import travel from "./projects/travel.png"
 
 
 
@@ -80,6 +82,8 @@ export {
   bank,
   restoraunt,
   ecommerce,
+  nike,
+  travel,
 
   infoculture,
   expres,

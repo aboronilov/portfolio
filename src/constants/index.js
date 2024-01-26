@@ -31,7 +31,9 @@ import {
   nestjs,
   chi,
   docker,
-  kubernetes
+  kubernetes,
+  nike,
+  travel,
 } from "../assets";
 
 export const navLinks = [
@@ -243,33 +245,11 @@ const projects = [
       },
     ],
     image: netflix,
-    link: "https://next-netflix-flutvi99l-boronilov-team.vercel.app/",
+    link: "https://next-netflix-one.vercel.app/",
     category: ["Fullstack", "All"],
   },
   {
     id: 2,
-    name: "Reddit",
-    tags: [
-      {
-        name: "NextJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Chakra UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: reddit,
-    link: "https://reddit-640hd4icq-boronilov-team.vercel.app/",
-    category: ["Fullstack", "All"],
-  },
-
-  {
-    id: 3,
     name: "Photographer Portfolio",
     tags: [
       {
@@ -286,11 +266,11 @@ const projects = [
       },
     ],
     image: photographer,
-    link: "https://nice-photos-4u.netlify.app/",
+    link: "https://photograph-portfolio-bice.vercel.app/",
     category: ["UI/UX", "All"],
   },
   {
-    id: 4,
+    id: 3,
     name: "Bank APP",
     tags: [
       {
@@ -311,24 +291,66 @@ const projects = [
     category: ["UI/UX", "All"],
   },
   {
-    id: 5,
-    name: "Restaurant APP",
+    id: 4,
+    name: "Travel APP",
     tags: [
       {
-        name: "ReactJS",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "React JS",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: restoraunt,
-    link: "https://gericht-restaurant-inky.vercel.app/",
+    image: travel,
+    link: "https://nextjs-travel-app-five.vercel.app/",
+    category: ["UI/UX", "All"],
+  },
+  // {
+  //   id: 2,
+  //   name: "Reddit",
+  //   tags: [
+  //     {
+  //       name: "NextJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Chakra UI",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: reddit,
+  //   link: "https://reddit-640hd4icq-boronilov-team.vercel.app/",
+  //   category: ["Fullstack", "All"],
+  // },
+  {
+    id: 5,
+    name: "Nike landing page",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nike,
+    link: "https://nike-landing-page-two-inky.vercel.app/",
     category: ["UI/UX", "All"],
   },
   {
@@ -352,27 +374,27 @@ const projects = [
     link: "https://ecommerce-sanity-stripe-mvjv4jjn6-boronilov-team.vercel.app/",
     category: ["Fullstack", "All"],
   },
-  {
-    id: 7,
-    name: "Estate Agency",
-    tags: [
-      {
-        name: "RefineJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NodeJS Express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: estate,
-    link: "https://estate-git-main-boronilov-team.vercel.app/",
-    category: ["Fullstack", "All"],
-  },
+  // {
+  //   id: 7,
+  //   name: "Estate Agency",
+  //   tags: [
+  //     {
+  //       name: "RefineJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "NodeJS Express",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Material UI",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: estate,
+  //   link: "https://estate-git-main-boronilov-team.vercel.app/",
+  //   category: ["Fullstack", "All"],
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
