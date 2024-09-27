@@ -36,7 +36,7 @@ import {
   travel,
   github,
   kaggle,
-  telega
+  telega,
 } from "../assets";
 
 export const navLinks = [
@@ -64,21 +64,21 @@ export const navLinks = [
 
 const contacts = [
   {
-    "name": "telegram",
-    "icon": telega,
-    "href": "https://t.me/aboronilov"
+    name: "telegram",
+    icon: telega,
+    href: "https://t.me/aboronilov",
   },
   {
-    "name": "github",
-    "icon": github,
-    "href": "https://github.com/aboronilov"
+    name: "github",
+    icon: github,
+    href: "https://github.com/aboronilov",
   },
   {
-    "name": "kaggle",
-    "icon": kaggle,
-    "href": "https://www.kaggle.com/anatolyboronilov"
-  }
-]
+    name: "kaggle",
+    icon: kaggle,
+    href: "https://www.kaggle.com/anatolyboronilov",
+  },
+];
 
 const services = [
   {
@@ -215,6 +215,23 @@ const experiences = [
       "Unit testing - coverage 100%",
       "Calculation of various SDLC and Technical Maturity metrics via Python scripts",
       "CI/CD pipelines",
+      "Code review.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Fullstack Developer",
+    company_name: "Just DO",
+    icon: infoculture,
+    iconBg: "#383E56",
+    date: "Jan 2024 - now",
+    stack: "Python Django DRF, Typescript NextJS, PostgreSQL",
+    points: [
+      "REST API backend development using Django and DRF",
+      "HTTP clients for interacting with external APIs",
+      "Frontend development using Next JS and Tailwind CSS",
+      "Unit testing",
+      "Complicated raw SQL queries to DB",
       "Code review.",
     ],
   },
@@ -418,4 +435,11 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects, contacts };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  contacts,
+};
